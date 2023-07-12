@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: action-pr-title
+  description: Check github PR title
+spec:
+  type: library
+  lifecycle: production
+  owner: darrell
