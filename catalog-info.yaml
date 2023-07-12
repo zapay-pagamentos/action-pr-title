@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: action-pr-title
   description: Check github PR title
+  annotations:
+    github.com/project-slug: zapay-pagamentos/action-pr-title
 spec:
   type: library
   lifecycle: production
